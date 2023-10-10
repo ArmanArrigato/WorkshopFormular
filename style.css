@@ -24,7 +24,7 @@ h1 {
 
 .text-inputs,
 .text-inputs2,
- .password  {
+.password {
     display: grid;
     row-gap: 10px;
     width: 200px;
@@ -44,12 +44,9 @@ textarea {
     width: 600px;
 }
 
-textarea:focus {
-    outline: none;
-    border: 2px solid #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-    background-color: #f0f0f0;
-
+.message {
+    font-weight: bolder;
+    margin-top: 10px;
 }
 
 .button {
