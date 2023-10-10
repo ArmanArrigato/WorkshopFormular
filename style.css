@@ -23,7 +23,8 @@ h1 {
 
 
 .text-inputs,
-.text-inputs2 {
+.text-inputs2,
+ .password  {
     display: grid;
     row-gap: 10px;
     width: 200px;
