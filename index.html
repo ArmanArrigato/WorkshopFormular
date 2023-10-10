@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registrera dig</h1>
+        <form action="https://httpbin.org/anything " method="post">
+
+            <div class="radio-buttons">
+                <h2>Åldersgrupp:</h2>
+                <label for="18-35">18-35</label>
+                <input type="radio" id="18-35" name="Åldersgrupp" value="18-35">
+                <label for="35-50">35-50:</label>
+                <input type="radio" id="35-50" name="Åldersgrupp" value="35-50">
+                <label for="50-65">50-65:</label>
+                <input type="radio" id="50-65" name="Åldersgrupp" value="50-65">
+                <label for="65+">65+</label>
+                <input type="radio" id="65+" name="Åldersgrupp" value="65+">
+            </div>
+
+            <div class="checkbox-buttons">
+                <h2>Kön:</h2>
+                <label for="Man">Man:</label>
+                <input type="checkbox" id="Man" name="Kön" value="Man">
+                <label for="Kvinna">Kvinna:</label>
+                <input type="checkbox" id="Kvinna" name="Kön" value="Kvinna">
+                <label for="Annat">Annat:</label>
+                <input type="checkbox" id="annat" name="Kön" value="Annat">
+            </div>
+
+            <div class="text-inputs">
+                <h2>Kontaktuppgifter:</h2>
+                <label for="namn">Namn:</label>
+                <input type="text" id="namn" name="namn" placeholder="Namn här..">
+                <label for="efternamn">Efternamn:</label>
+                <input type="text" id="efternamn" name="efternamn" placeholder="Efternamn här..">
+            </div>
+
+            <div class="text-inputs2">
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email" placeholder="exempel@gmail.com" required>
+                <label for="telefon">Telefonnummer:</label>
+                <input type="tel" id="telefon" name="telefon" placeholder="Telefonnummer här.." required>
+            </div>
+
+            <div class="textarea" height="200px" width="400px">
+                <h2>Meddelande:</h2>
+                <textarea>
+
+</textarea>
+
+                <div class="send">
+                    <button type="submit">Skicka</button>
+
+                </div>
+
+            </div>
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
